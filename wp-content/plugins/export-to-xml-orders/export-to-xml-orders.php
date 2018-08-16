@@ -223,8 +223,8 @@ function xml_generate ($order_id){
 function send_xml_file_to_server(){
     $file = 'vox_example.bin';
     $remote_file = '/vox/vox_example_remote.bin';
-    $ftp_user_name = 'vox-C4AE-F246-F6CA-932B';
-    $ftp_user_pass = '178F-9C92-D5A4-6FF1';
+    $ftp_user_name = '';
+    $ftp_user_pass = '';
 
     // create connect sftp
     $connection=ssh2_connect('vox-alpha.websystems.com','33497');
